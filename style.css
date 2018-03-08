@@ -1,0 +1,228 @@
+/* -------------------------------------REGLE GLOBALE---------------------------*/
+dt {
+    margin-left: 4px;
+    font-size: 11px;
+}
+dd {
+    margin-left: 8px;
+    font-size: 10px;
+}
+nav {
+    margin-left: 0px;
+}
+input {
+    margin-left: 0px;
+    size: 5;
+    width: 80px;
+    height: 26px;
+    margin-top: 3px;
+	border-radius: 10px;
+}
+/* -------------------------------------SQUELETTE FIXE---------------------------*/
+/* --------GLOBALE----------------*/
+.row {
+    margin-top: 2px;
+    /*  border: 1px solid #006400;*/
+}
+/* --------ENTETE-----------------*/
+#header_container {
+    height: 35px;
+}
+ /* --------photo--------*/  
+.Image_titre {
+    margin-left: -13px;
+    height: 35px;
+}
+ /* --------buttons--------*/
+#main_bt {
+		margin-left: -6px
+		} 
+	#myprofil_bt {
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 50px;
+		background-color: #34A853;
+		color: white;
+		border: 1px solid #34A853;
+		border-radius: 10px;
+		border-radius: 10px;
+		font-size: 11px;
+		text-align: center;
+		height: 31px;
+	}
+	#myprofil_bt:hover {
+		background-color: white;
+		color: black;
+		border: 1px solid #black;
+		;
+	}
+
+	#find_bt {
+		margin-top: 3px;
+		margin-left: 0px;
+		width: 50px;
+		height: 31px;
+		background-color: #FF6201;
+		color: white;
+		border: 1px solid #FF6201;
+		border-radius: 10px;
+		border-radius: 10px;
+		font-size: 11px;
+		text-align: center;
+	}
+	#find_bt:hover {
+		background-color: white;
+		color: black;
+		border: 1px solid #black;
+		;
+	}
+
+	#logs_bt {
+		height: 30px;
+		background-color: #26B7D4;
+		color: white;
+		border: 1px solid #26B7D4;
+		margin-top: 4px;
+		width: 30px;
+		text-align: center;
+		font-size: 11px;
+		margin-left: 0px;
+		border-radius: 20px;
+	}
+	#logs_bt:hover {
+		background-color: white;
+		color: black;
+		border: 1px solid #black;
+		;
+	}
+
+
+
+/* --------  SECTION -----------------*/
+#main_section_container {
+    height: 85vh;
+}
+	#menu_section {
+		height: 100%;
+	}
+	 
+
+	#mainsection_content {
+		margin-left: 8px;
+		height: 100%;
+		width: 85%;
+		border: 1px solid #26B7D4;
+		border-radius: 10px;
+	
+	}
+	
+
+
+
+
+
+		
+
+/* --------  CHAT-----------------*/
+#chat_section_container {
+    border: 1px solid #26B7D4;
+    height: 29px;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+/* -------------------------------------LOGIN---------------------------*/
+/* -------------------------------------SIGNIN--------------------------*/
+
+#sign_bt {
+    background-color: #34A853;
+    color: white;
+    margin-top: 0px;
+    width: 97px;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 1px;
+}
+#sign_bt:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #black;
+    ;
+}
+
+#signin_photo {
+    height: 80px;
+    margin-top: 220px;
+    margin-left: -10px;
+}
+
+/* -------------------------------------MYPROFIL------------------------*/
+ /* --------menu--------*/  
+  #section_menu_buttons {
+			width: 38px;
+			margin-left: -15px;
+			border-radius: 10px;
+		}
+	
+/* --------section--------*/  
+
+#photo_profil {
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 50px;
+	border-radius: 10px;
+}
+
+#photo_profil_friend
+{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 50px;
+	border-radius: 10px;
+}
+
+#username {
+    margin-left: 25px;
+    font-size: 10px;
+}
+/* -------------------------------------FIND----------------------------*/
+#map_canvas {
+    width: 100%;
+    height: 95%;
+    margin-top: 2px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+	-webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+	display:none;
+}
+
+
+
+
+#div_settings{
+
+ -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+	display:block;
+   
+   
+}
+
+#friendprofil{
+
+ -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+	display:none;
+   
+   
+}
+		
+
+		
+		
+	
